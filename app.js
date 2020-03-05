@@ -2,9 +2,9 @@
 
 const inquire = require("inquirer");
 const fs = require("fs");
-const manager = require("lib/manager.js");
-const engineer = require("lib/engineer.js");
-const intern = require("lib/intern");
+const manager = require("./lib/manager");
+const engineer = require("./lib/engineer.js");
+const intern = require("./lib/intern");
 
 let teamList = [];
 
